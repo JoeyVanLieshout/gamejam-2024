@@ -10,15 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3925786221384931806}
   - component: {fileID: 6191567592687212953}
-<<<<<<< Updated upstream
-  - component: {fileID: 2954606797623429073}
-=======
   - component: {fileID: 6327636722385635100}
+  - component: {fileID: 7522077384736499271}
   - component: {fileID: 2779650030956068220}
->>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,7 +33,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2743246796361453950}
+  - {fileID: 4810048315657285671}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6191567592687212953
@@ -91,11 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-<<<<<<< Updated upstream
---- !u!114 &2954606797623429073
-=======
 --- !u!114 &6327636722385635100
->>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,55 +97,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 2384134732784642573}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< Updated upstream
-  m_Script: {fileID: 11500000, guid: baf184a634265e04d98eab078f7507ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Target: {fileID: 4865630078621407614}
-  PickupRange: 1
-  PickedUpCat: {fileID: 0}
---- !u!1 &4865630078621407614
-GameObject:
-=======
   m_Script: {fileID: 11500000, guid: 31cf4d768555bdc4e82709b3923df775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 5
+  direction: 0
+--- !u!114 &7522077384736499271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2384134732784642573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baf184a634265e04d98eab078f7507ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 9205231072071111518}
+  PickupRange: 1
+  PickedUpCat: {fileID: 0}
 --- !u!50 &2779650030956068220
 Rigidbody2D:
   serializedVersion: 4
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2743246796361453950}
-  m_Layer: 0
-  m_Name: CatPickupTarget
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2743246796361453950
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4865630078621407614}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.67, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3925786221384931806}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 2384134732784642573}
   m_BodyType: 1
   m_Simulated: 1
@@ -173,4 +144,34 @@ Transform:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
->>>>>>> Stashed changes
+--- !u!1 &9205231072071111518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4810048315657285671}
+  m_Layer: 0
+  m_Name: Cat Pickup Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4810048315657285671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9205231072071111518}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3925786221384931806}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

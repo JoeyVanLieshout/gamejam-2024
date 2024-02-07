@@ -9,7 +9,7 @@ public class CatPickupController : MonoBehaviour
     [SerializeField] private float PickupRange;
 
     [SerializeField] private bool hasCat => PickedUpCat != null;
-    [SerializeField] private GameObject PickedUpCat;
+    [SerializeField] private GameObject PickedUpCat = null;
 
 
     // Start is called before the first frame update
@@ -35,12 +35,21 @@ public class CatPickupController : MonoBehaviour
             }
         }
 
-        PickedUpCat.transform.position = Target.transform.position;
-
-        if (Input.GetKey(KeyCode.E) && hasCat)
+        if (hasCat)
         {
-            PickedUpCat = null;
+            PickedUpCat.transform.position = Target.transform.position;
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                PickedUpCat = null;
+            }
         }
+
+        
+    }
+
+    public void SetTargetPos(Vector3 pos)
+    {
+        Target.transform.localPosition = pos;
     }
 
     private void OnDrawGizmos()
