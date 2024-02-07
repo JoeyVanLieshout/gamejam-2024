@@ -39,6 +39,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Water
+    uniqueID: 3210514621
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Rock
+    uniqueID: 342186479
+    locked: 0
+  - name: Grass
+    uniqueID: 1491987885
+    locked: 0
+  - name: Rock2
+    uniqueID: 4109691173
+    locked: 0
+  - name: Grass2
+    uniqueID: 4250927539
     locked: 0
