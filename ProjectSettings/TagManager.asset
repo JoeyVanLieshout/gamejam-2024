@@ -57,3 +57,15 @@ TagManager:
   - name: Grass2
     uniqueID: 4250927539
     locked: 0
+  - name: Props1
+    uniqueID: 1590978965
+    locked: 0
+  - name: Props2
+    uniqueID: 3142288075
+    locked: 0
+  - name: Props3
+    uniqueID: 3078376877
+    locked: 0
+  - name: Props
+    uniqueID: 19342181
+    locked: 0
