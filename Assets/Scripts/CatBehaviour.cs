@@ -6,9 +6,16 @@ public class CatBehaviour : MonoBehaviour
 {
     public CatSprite spriteScript;
     public Transform player;
-    public float speed = 5f;
-    public float distanceToScare = 10f;
 
+    private float distanceToScare;
+    private float speed;
+
+    private void Start()
+    {
+        int randomNumber = Random.Range(1, 5);
+        SetCatType(randomNumber);
+        spriteScript.SetRandomCat(randomNumber);
+    }
     void Update()
     {
         if (Vector3.Distance(transform.position, player.position) < distanceToScare)
@@ -20,6 +27,31 @@ public class CatBehaviour : MonoBehaviour
         }
         spriteScript.UpdateCatSprite(CalculateAngle());
         Debug.Log(CalculateAngle());
+    }
+    public void SetCatType(int randomNumber)
+    {
+        switch (randomNumber)
+        {
+            case 1:
+                distanceToScare = 4f;
+                speed = 3f;
+                break;
+            case 2:
+                distanceToScare = 5f;
+                speed = 2.5f;
+                break;
+            case 3:
+                distanceToScare = 6f;
+                speed = 2f;
+                break;
+            case 4:
+                distanceToScare = 7f;
+                speed = 1.5f;
+                break;
+            default:
+                Debug.LogWarning("Invalid random number.");
+                break;
+        }
     }
     int CalculateAngle()
     {

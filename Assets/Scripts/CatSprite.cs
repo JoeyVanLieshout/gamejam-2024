@@ -14,9 +14,6 @@ public class CatSprite : MonoBehaviour
 
     private void Start()
     {
-        int randomNumber = Random.Range(1, 5);
-        SetRandomCat(randomNumber);
-
         catSprite = GetComponent<SpriteRenderer>();
     }
 
