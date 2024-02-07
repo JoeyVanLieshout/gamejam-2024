@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 210a90656b6798e4fad7286702569ac6
+guid: e10263abe45af904897a0d8ef1aaa709
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,181 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wood_Tower_Purple_0
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90f50d67cd11afa46b64182590580f9c
-      internalID: 1794878798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wood_Tower_Purple_1
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0634c1cc351f8d1459b781e6d2bee982
-      internalID: 17339447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wood_Tower_Purple_2
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fe006eaee741c642a182c5f5313da33
-      internalID: -2114264961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wood_Tower_Purple_3
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccac0e2a358fb8745a58e270f803528b
-      internalID: 244675617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wood_Tower_Purple_4
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4584666f64f9ee04687e80d7f9cb0b2a
-      internalID: 133239923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wood_Tower_Purple_5
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 390542a57525e134d8e70d114da69a3b
-      internalID: 375243165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wood_Tower_Purple_6
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59757ba56ba2f36459a58904229e5579
-      internalID: 809599924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wood_Tower_Purple_7
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84ef2f0e5a6cddd4692d03a1b446466b
-      internalID: -1648178824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wood_Tower_Purple_8
+      name: Sprite_Skin1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 64
-        height: 64
+        y: 336
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ad16bdc15889644c9cbc7b3f44c4c3e
-      internalID: -2128421096
+      spriteID: 1a30027fbb5d05743bb76b0f12fe1dd2
+      internalID: -991347864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_9
+      name: Sprite_Skin1_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 24
+        y: 336
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a26abcc79f92cc44a9ed46551eb16053
-      internalID: -1399430880
+      spriteID: 983fc712bb6739d4d8161072ee77aee7
+      internalID: 83410385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_10
+      name: Sprite_Skin1_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
+        x: 48
+        y: 336
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d22b2753e48844d43be1fa1ceaf81803
-      internalID: 1606139494
+      spriteID: 221409037e77efd43a9afaf259a3eec0
+      internalID: 716985159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_11
+      name: Sprite_Skin1_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
+        x: 72
+        y: 336
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89dcf79c2d870294aa9166ade2048180
-      internalID: 23763718
+      spriteID: 3f7716de1cc85164da7b108aae756725
+      internalID: 819488893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_12
+      name: Sprite_Skin1_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64
-        height: 64
+        x: 0
+        y: 288
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2c020a489fe01748adb72f3d2a0cda8
-      internalID: -173306773
+      spriteID: 150495a6395cc184d82ef0da3fc8e7b6
+      internalID: -1470049652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_13
+      name: Sprite_Skin1_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 64
-        width: 64
-        height: 64
+        x: 24
+        y: 288
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab76b846dd1f01d40b92401d2d8c5e0d
-      internalID: -1744390171
+      spriteID: f45051990866fc84d9c37b821d615444
+      internalID: -62656477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_14
+      name: Sprite_Skin1_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 64
-        width: 64
-        height: 64
+        x: 48
+        y: 288
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f79fac6f809dd264e90b038e5f1d61cf
-      internalID: 648883032
+      spriteID: 106dd5d7f2c3e2b43bb7464f25101858
+      internalID: -624601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_15
+      name: Sprite_Skin1_7
       rect:
         serializedVersion: 2
-        x: 448
-        y: 64
-        width: 64
-        height: 64
+        x: 72
+        y: 288
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7ab5df535008084c9259402ef46f2fb
-      internalID: -351682243
+      spriteID: 6b54f4c30cc65ea4a9d47c78ad859849
+      internalID: 1614847382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_16
+      name: Sprite_Skin1_8
       rect:
         serializedVersion: 2
-        x: 512
-        y: 64
-        width: 64
-        height: 64
+        x: 0
+        y: 240
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b72fd70b5ff7ca34bbe3e2fc6db09762
-      internalID: 1184573811
+      spriteID: ce4b64b615e01ae4e8de6de469804311
+      internalID: 349304333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_17
+      name: Sprite_Skin1_9
       rect:
         serializedVersion: 2
-        x: 576
-        y: 64
-        width: 64
-        height: 64
+        x: 24
+        y: 240
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00d1ec66e2c57f44fb3b564f335b9845
-      internalID: -174293658
+      spriteID: 9fd4272d3339d7b4d8d313dffbafbd33
+      internalID: -1569962936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_18
+      name: Sprite_Skin1_10
       rect:
         serializedVersion: 2
-        x: 640
-        y: 64
-        width: 64
-        height: 64
+        x: 48
+        y: 240
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6345c06b23ea9a0459adc9aa22ff24d8
-      internalID: -654796969
+      spriteID: d2893d36a090e7f43a74131fa98c3ebc
+      internalID: -611694482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_19
+      name: Sprite_Skin1_11
       rect:
         serializedVersion: 2
-        x: 704
-        y: 64
-        width: 64
-        height: 64
+        x: 72
+        y: 240
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,20 +355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 904a18c0d09aedd49bb713d6625244d0
-      internalID: 1265127179
+      spriteID: 6c0ae64d51d8aec4581b344348047bce
+      internalID: 1568510230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_20
+      name: Sprite_Skin1_12
       rect:
         serializedVersion: 2
-        x: 832
-        y: 64
-        width: 64
-        height: 64
+        x: 0
+        y: 192
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,20 +376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2671e3ee84ff13741b37ac7b6da6422d
-      internalID: -1974366935
+      spriteID: 049abd7785efaed46974432525f4a3a8
+      internalID: -528712060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_21
+      name: Sprite_Skin1_13
       rect:
         serializedVersion: 2
-        x: 896
-        y: 64
-        width: 64
-        height: 64
+        x: 24
+        y: 192
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,20 +397,314 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 989636efc4c9d9347bac389bd5a74d85
-      internalID: -1078241545
+      spriteID: a8cbab50412c2be44aa645e779409f00
+      internalID: -317838107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_22
+      name: Sprite_Skin1_14
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
+        y: 192
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bc5d63acda0ee42af9b792141e59d9
+      internalID: -1587412883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Skin1_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 192
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67805a95dab856642b285bce0aa6d0aa
+      internalID: -561441695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Skin1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b8ac60d384e344aa107d8fc6ff8caa
+      internalID: 865965106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Skin1_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 144
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52c6c2f54b02d748a47347a15fa2cf4
+      internalID: -15665610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Skin1_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac732c077064c547bd2b05675548abd
+      internalID: -1006997999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Skin1_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 144
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054fe7d3647b44a47b3b5d042bb3fbca
+      internalID: -950342681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Skin1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ad0ca4ad4f5d44187803ae7b04c09b
+      internalID: -1548195395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Skin1_21
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e56a997d661e71439ab1316e8c3b7ec
+      internalID: -265702934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Skin1_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6627b5a5b0dc5b74abefa681c76846df
+      internalID: -1739234845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Skin1_23
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577cc97899282654f96c1e5a033415ba
+      internalID: 1342288603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Skin1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8148094efa7d6c749b04b6ee36281ce4
+      internalID: -1971142647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Skin1_25
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950154876c1ff9f43b40cdf1d55d121e
+      internalID: 1872205977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Skin1_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abddf84862dbfe4a8b514d2e02c2766
+      internalID: -652931904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Skin1_27
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c594544432b3344581faf0c89f5e9a8
+      internalID: 1896836664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Skin1_28
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -586,20 +712,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d2bfcc5f2f6b674db241504183f94d9
-      internalID: 638161537
+      spriteID: b23582be88496af42abfa6be8dc58def
+      internalID: -186602915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_23
+      name: Sprite_Skin1_29
       rect:
         serializedVersion: 2
-        x: 128
+        x: 24
         y: 0
-        width: 64
-        height: 64
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,20 +733,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abfe1bb6c2978cf4693d43c751d7ad91
-      internalID: -755601147
+      spriteID: 1b5731b20417ca849ae9dcc055b9d210
+      internalID: -1096510683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_24
+      name: Sprite_Skin1_30
       rect:
         serializedVersion: 2
-        x: 320
+        x: 48
         y: 0
-        width: 64
-        height: 64
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,20 +754,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a107520315c2d941aba45fad3d77bfa
-      internalID: 1408443036
+      spriteID: 87596ff80b0268c4393aea797a3ae872
+      internalID: 1809455736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood_Tower_Purple_25
+      name: Sprite_Skin1_31
       rect:
         serializedVersion: 2
-        x: 384
+        x: 72
         y: 0
-        width: 64
-        height: 64
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -649,92 +775,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea26cc90911b16c4fae9245ea262c434
-      internalID: -1453665898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wood_Tower_Purple_26
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e25063c5cce0e04d9307da01f36dcee
-      internalID: -713092886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wood_Tower_Purple_27
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7a11142c18445144aaec0a5ce479bd5
-      internalID: -1419695194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wood_Tower_Purple_28
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 115b47b936f0f8d4f896a32ddde75a7f
-      internalID: -1545739832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wood_Tower_Purple_29
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3ee7ce84650e9b47bed1dffa4e89bb8
-      internalID: -1439705543
+      spriteID: 218510b0c4e98d748824865ac429e0ab
+      internalID: -1253163294
       vertices: []
       indices: 
       edges: []
@@ -750,36 +792,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Wood_Tower_Purple_0: 1794878798
-      Wood_Tower_Purple_1: 17339447
-      Wood_Tower_Purple_10: 1606139494
-      Wood_Tower_Purple_11: 23763718
-      Wood_Tower_Purple_12: -173306773
-      Wood_Tower_Purple_13: -1744390171
-      Wood_Tower_Purple_14: 648883032
-      Wood_Tower_Purple_15: -351682243
-      Wood_Tower_Purple_16: 1184573811
-      Wood_Tower_Purple_17: -174293658
-      Wood_Tower_Purple_18: -654796969
-      Wood_Tower_Purple_19: 1265127179
-      Wood_Tower_Purple_2: -2114264961
-      Wood_Tower_Purple_20: -1974366935
-      Wood_Tower_Purple_21: -1078241545
-      Wood_Tower_Purple_22: 638161537
-      Wood_Tower_Purple_23: -755601147
-      Wood_Tower_Purple_24: 1408443036
-      Wood_Tower_Purple_25: -1453665898
-      Wood_Tower_Purple_26: -713092886
-      Wood_Tower_Purple_27: -1419695194
-      Wood_Tower_Purple_28: -1545739832
-      Wood_Tower_Purple_29: -1439705543
-      Wood_Tower_Purple_3: 244675617
-      Wood_Tower_Purple_4: 133239923
-      Wood_Tower_Purple_5: 375243165
-      Wood_Tower_Purple_6: 809599924
-      Wood_Tower_Purple_7: -1648178824
-      Wood_Tower_Purple_8: -2128421096
-      Wood_Tower_Purple_9: -1399430880
+      Sprite_Skin1_0: -991347864
+      Sprite_Skin1_1: 83410385
+      Sprite_Skin1_10: -611694482
+      Sprite_Skin1_11: 1568510230
+      Sprite_Skin1_12: -528712060
+      Sprite_Skin1_13: -317838107
+      Sprite_Skin1_14: -1587412883
+      Sprite_Skin1_15: -561441695
+      Sprite_Skin1_16: 865965106
+      Sprite_Skin1_17: -15665610
+      Sprite_Skin1_18: -1006997999
+      Sprite_Skin1_19: -950342681
+      Sprite_Skin1_2: 716985159
+      Sprite_Skin1_20: -1548195395
+      Sprite_Skin1_21: -265702934
+      Sprite_Skin1_22: -1739234845
+      Sprite_Skin1_23: 1342288603
+      Sprite_Skin1_24: -1971142647
+      Sprite_Skin1_25: 1872205977
+      Sprite_Skin1_26: -652931904
+      Sprite_Skin1_27: 1896836664
+      Sprite_Skin1_28: -186602915
+      Sprite_Skin1_29: -1096510683
+      Sprite_Skin1_3: 819488893
+      Sprite_Skin1_30: 1809455736
+      Sprite_Skin1_31: -1253163294
+      Sprite_Skin1_4: -1470049652
+      Sprite_Skin1_5: -62656477
+      Sprite_Skin1_6: -624601
+      Sprite_Skin1_7: 1614847382
+      Sprite_Skin1_8: 349304333
+      Sprite_Skin1_9: -1569962936
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
