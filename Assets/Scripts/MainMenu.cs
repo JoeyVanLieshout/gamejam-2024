@@ -24,7 +24,7 @@ public class MainMenu : MonoBehaviour
     }
 
     // Mutes Music If Box Ticked
-    public void MuteToggle(bool muted)
+    /*public void MuteToggle(bool muted)
     {
         if (muted)
         {
@@ -34,5 +34,5 @@ public class MainMenu : MonoBehaviour
         {
             AudioListener.volume = 1;
         }
-    }
+    }*/
 }
