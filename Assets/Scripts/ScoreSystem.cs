@@ -13,7 +13,7 @@ public class ScoreSystem : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("CatDeactivate"))
+        if (other.CompareTag("Player"))
         {
             Debug.Log("Cat Detected");
             score++; // Increase score by 1 when a "CatDeactivate" object enters the collider
@@ -27,5 +27,5 @@ public class ScoreSystem : MonoBehaviour
         {
             scoreText.text = "Score: " + score; // Update the Text object with the current score
         }
-    }
+    } 
 }
