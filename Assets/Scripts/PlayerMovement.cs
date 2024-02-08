@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private EDirection direction;
     Vector2 directionTarget;
     [SerializeField] float targetDistance;
+    private Animator playerAnimator;
     public EDirection Direction
     {
         get { return direction; }
@@ -37,6 +38,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         pickup = GetComponent<CatPickupController>();
+        playerAnimator = GetComponent<Animator>();
+        
     }
 
     void Update()
@@ -56,15 +59,31 @@ public class PlayerMovement : MonoBehaviour
         {
             case (0f, 1f):
                 Direction = EDirection.North;
+                playerAnimator.SetBool("WalkBack", true);
+                playerAnimator.SetBool("WalkStraight", false);
+                playerAnimator.SetBool("WalkLeft", false);
+                playerAnimator.SetBool("WalkRight", false);
                 break;
             case (1f, 0f):
                 Direction = EDirection.East;
+                playerAnimator.SetBool("WalkRight", true);
+                playerAnimator.SetBool("WalkStraight", false);
+                playerAnimator.SetBool("WalkLeft", false);
+                playerAnimator.SetBool("WalkBack", false);
                 break;
             case (0f, -1f):
                 Direction = EDirection.South;
+                playerAnimator.SetBool("WalkLeft", false);
+                playerAnimator.SetBool("WalkStraight", true);
+                playerAnimator.SetBool("WalkRight", false);
+                playerAnimator.SetBool("WalkBack", false);
                 break;
             case (-1f, 0f):
                 Direction = EDirection.West;
+                playerAnimator.SetBool("WalkStraight", false);
+                playerAnimator.SetBool("WalkLeft", true);
+                playerAnimator.SetBool("WalkRight", false);
+                playerAnimator.SetBool("WalkBack", false);
                 break;
         }
     }
