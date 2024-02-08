@@ -21,6 +21,7 @@ public class CatPickUp : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 currentCat.GetComponent<CatBehaviour>().pickedUp = false;
+                currentCat.GetComponent<CircleCollider2D>().enabled = true;
                 currentCat = null;
                 hasCat = false;
             }
@@ -31,10 +32,11 @@ public class CatPickUp : MonoBehaviour
             newPosition.y -= 0.7f;
 
             currentCat.transform.position = newPosition;
-
+            CircleCollider2D catHitBox = currentCat.GetComponent<CircleCollider2D>();
             CatBehaviour catBehaviourScript = currentCat.GetComponent<CatBehaviour>();
             if (catBehaviourScript != null)
             {
+                catHitBox.enabled = false;
                 catBehaviourScript.pickedUp = true;
             }
         }
