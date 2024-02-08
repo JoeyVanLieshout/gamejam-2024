@@ -39,7 +39,8 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         pickup = GetComponent<CatPickupController>();
         playerAnimator = GetComponent<Animator>();
-        
+        directionTarget = new Vector2(0f, -1f);
+        Direction = EDirection.South;
     }
 
     void Update()
@@ -59,32 +60,39 @@ public class PlayerMovement : MonoBehaviour
         {
             case (0f, 1f):
                 Direction = EDirection.North;
-                playerAnimator.SetBool("WalkBack", true);
-                playerAnimator.SetBool("WalkStraight", false);
-                playerAnimator.SetBool("WalkLeft", false);
-                playerAnimator.SetBool("WalkRight", false);
+                playerAnimator.Play("BackWalk");
                 break;
             case (1f, 0f):
-                Direction = EDirection.East;
-                playerAnimator.SetBool("WalkRight", true);
-                playerAnimator.SetBool("WalkStraight", false);
-                playerAnimator.SetBool("WalkLeft", false);
-                playerAnimator.SetBool("WalkBack", false);
+                Direction = EDirection.West;
+                playerAnimator.Play("RightWalk");
                 break;
             case (0f, -1f):
                 Direction = EDirection.South;
-                playerAnimator.SetBool("WalkLeft", false);
-                playerAnimator.SetBool("WalkStraight", true);
-                playerAnimator.SetBool("WalkRight", false);
-                playerAnimator.SetBool("WalkBack", false);
+                playerAnimator.Play("WalkStraight");
                 break;
             case (-1f, 0f):
-                Direction = EDirection.West;
-                playerAnimator.SetBool("WalkStraight", false);
-                playerAnimator.SetBool("WalkLeft", true);
-                playerAnimator.SetBool("WalkRight", false);
-                playerAnimator.SetBool("WalkBack", false);
+                Direction = EDirection.East;
+                playerAnimator.Play("LeftWalk");
                 break;
+        }
+
+        if(movementDirRaw.magnitude == 0f)
+        {
+            switch (Direction)
+            {
+                case EDirection.North:
+                    playerAnimator.Play("BackIdle");
+                    break;
+                case EDirection.East:
+                    playerAnimator.Play("LeftIdle");
+                    break;
+                case EDirection.South:
+                    playerAnimator.Play("Idle");
+                    break;
+                case EDirection.West:
+                    playerAnimator.Play("RightIdle");
+                    break;
+            }
         }
     }
 
