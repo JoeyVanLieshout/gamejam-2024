@@ -11,14 +11,6 @@ public class CatPickupController : MonoBehaviour
     [SerializeField] private bool hasCat => PickedUpCat != null;
     [SerializeField] private GameObject PickedUpCat = null;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         
@@ -43,8 +35,6 @@ public class CatPickupController : MonoBehaviour
                 PickedUpCat = null;
             }
         }
-
-        
     }
 
     public void SetTargetPos(Vector3 pos)

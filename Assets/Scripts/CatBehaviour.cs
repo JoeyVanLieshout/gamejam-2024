@@ -9,6 +9,7 @@ public class CatBehaviour : MonoBehaviour
 
     bool catScared = false;
     bool canBeScared = true;
+    public bool pickedUp = false;
 
     private float scareCooldownTimer = 4f;
     private float scareChance;
@@ -33,11 +34,11 @@ public class CatBehaviour : MonoBehaviour
 
     void Update()
     {
-        if (catScared)
+        if (catScared && !pickedUp)
         {
             CatScaredRun(runDirection);
         }
-        else
+        else if(!pickedUp)
         {
             runDirection = (Vector2)transform.position - (Vector2)player.position;
             RunFromPlayer();
