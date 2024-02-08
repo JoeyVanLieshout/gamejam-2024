@@ -5,12 +5,12 @@ using UnityEngine;
 public class CatBehaviour : MonoBehaviour
 {
     public CatSprite spriteScript;
-    public Transform player;
+    private Transform player;
 
     bool catScared = false;
     bool canBeScared = true;
 
-    private float scareCooldownTimer = 10f;
+    private float scareCooldownTimer = 4f;
     private float scareChance;
     private float distanceToScare;
     private float startSpeed;
@@ -18,9 +18,12 @@ public class CatBehaviour : MonoBehaviour
     private float scaredSpeed;
     private Rigidbody2D catRigidbody;
 
+    Vector2 runDirection;
 
     void Start()
     {
+        GameObject playerObject = GameObject.Find("Player");
+        player = playerObject.transform;
         catRigidbody = GetComponent<Rigidbody2D>();
 
         int randomNumber = Random.Range(1, 5);
@@ -32,10 +35,11 @@ public class CatBehaviour : MonoBehaviour
     {
         if (catScared)
         {
-            CatScaredRun();
+            CatScaredRun(runDirection);
         }
         else
         {
+            runDirection = (Vector2)transform.position - (Vector2)player.position;
             RunFromPlayer();
             spriteScript.UpdateCatSprite(CalculateAngle());
         }
@@ -86,12 +90,9 @@ public class CatBehaviour : MonoBehaviour
             catRigidbody.velocity = Vector2.zero;
         }
     }
-    public void CatScaredRun()
+    public void CatScaredRun(Vector2 runDirection)
     {
-        Vector2 runDirection = (Vector2)transform.position - (Vector2)player.position;
         runDirection.Normalize();
-
-        runDirection *= -1;
 
         catRigidbody.velocity = runDirection * scaredSpeed;
     }
@@ -154,11 +155,10 @@ public class CatBehaviour : MonoBehaviour
     }
     bool ScareCheck()
     {
-        /*        float probability = scareChance / 5f;
+        float probability = scareChance / 5f;
 
-                float randomValue = Random.value;
+        float randomValue = Random.value;
 
-                return randomValue <= probability;*/
-        return true;
+        return randomValue <= probability;
     }
 }
