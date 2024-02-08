@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
     {
         // Starts The Game
-        SceneManager.LoadScene("LoadingScreen"); // Change "LoadScreen to Game Scene        
+        SceneManager.LoadScene("Christian"); // Change "LoadScreen to Game Scene        
     }
 
     public void Options()

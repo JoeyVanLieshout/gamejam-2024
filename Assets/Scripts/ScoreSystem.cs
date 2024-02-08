@@ -7,6 +7,7 @@ public class ScoreSystem : MonoBehaviour
     public static ScoreSystem instance;
     public int score = 0; // Initialize score to zero
     public Text scoreText; // Reference to the Text object to display the score
+    public Text scoreText2;
 
     private void Awake()
     {
@@ -45,6 +46,11 @@ public class ScoreSystem : MonoBehaviour
         if (scoreText != null)
         {
             scoreText.text = "Score: " + score; // Update the Text object with the current score
+        }
+
+        if (scoreText2 != null)
+        {
+            scoreText2.text = "Score: " + score; // Update the Text object with the current score
         }
     } 
 }
