@@ -8,13 +8,18 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
     {
         // Starts The Game
-        SceneManager.LoadScene("LoadingScreen");        
+        SceneManager.LoadScene("LoadingScreen"); // Change "LoadScreen to Game Scene        
     }
 
     public void Options()
     {
         //Goes To Credits Screen
         SceneManager.LoadScene("Options");
+    }
+
+    public void Return()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void ExitGame()
@@ -24,7 +29,7 @@ public class MainMenu : MonoBehaviour
     }
 
     // Mutes Music If Box Ticked
-    /*public void MuteToggle(bool muted)
+    public void MuteToggle(bool muted)
     {
         if (muted)
         {
@@ -34,5 +39,5 @@ public class MainMenu : MonoBehaviour
         {
             AudioListener.volume = 1;
         }
-    }*/
+    }
 }

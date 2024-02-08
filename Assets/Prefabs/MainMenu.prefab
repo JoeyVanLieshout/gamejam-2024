@@ -1454,7 +1454,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Super Unique Game Title
+  m_Text: Super Unique Cat Game Title
 --- !u!1 &6639400671462396878
 GameObject:
   m_ObjectHideFlags: 0
