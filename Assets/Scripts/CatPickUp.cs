@@ -10,7 +10,7 @@ public class CatPickUp : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F) && !hasCat && catCheck.inRange)
+        if (Input.GetMouseButtonDown(0) && !hasCat && catCheck.inRange)
         {
             currentCat = catCheck.PickUpCat();
             hasCat = true;
@@ -27,8 +27,16 @@ public class CatPickUp : MonoBehaviour
         }
         if (currentCat != null)
         {
-            currentCat.transform.position = transform.position;
-            currentCat.GetComponent<CatBehaviour>().pickedUp = true;
+            Vector3 newPosition = transform.position;
+            newPosition.y -= 0.7f;
+
+            currentCat.transform.position = newPosition;
+
+            CatBehaviour catBehaviourScript = currentCat.GetComponent<CatBehaviour>();
+            if (catBehaviourScript != null)
+            {
+                catBehaviourScript.pickedUp = true;
+            }
         }
     }
 }

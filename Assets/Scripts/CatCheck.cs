@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class CatCheck : MonoBehaviour
 {
-    public bool inRange = false;
+    private GameObject currentCat = null;
+
+    public bool inRange { get { return currentCat != null; } }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Cat"))
         {
-            inRange = true;
+            currentCat = other.gameObject;
         }
     }
 
@@ -18,12 +20,12 @@ public class CatCheck : MonoBehaviour
     {
         if (other.CompareTag("Cat"))
         {
-            inRange = false;
+            currentCat = null;
         }
     }
 
     public GameObject PickUpCat()
     {
-        return GameObject.FindGameObjectWithTag("Cat");
+        return currentCat;
     }
 }
