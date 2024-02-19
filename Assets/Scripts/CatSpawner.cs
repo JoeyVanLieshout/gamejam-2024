@@ -16,7 +16,7 @@ public class CatSpawner : MonoBehaviour
         {
             yield return new WaitForSeconds(1f);
 
-            int randomValue = Random.Range(1, 50);
+            int randomValue = Random.Range(1, 40);
 
             if (randomValue == 1)
             {

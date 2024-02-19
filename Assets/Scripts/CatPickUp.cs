@@ -19,7 +19,7 @@ public class CatPickUp : MonoBehaviour
 
         if (hasCat)
         {
-            if (Input.GetMouseButtonDown(1)))
+            if (Input.GetMouseButtonDown(1))
             {
                 currentCat.GetComponent<CatBehaviour>().pickedUp = false;
                 currentCat.GetComponent<CircleCollider2D>().enabled = true;

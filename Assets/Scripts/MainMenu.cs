@@ -20,6 +20,7 @@ public class MainMenu : MonoBehaviour
     public void Return()
     {
         SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1f;
     }
 
     public void ExitGame()
